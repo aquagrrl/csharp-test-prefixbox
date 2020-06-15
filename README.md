@@ -1,4 +1,4 @@
-# Java Test
+# C# Test
 
 -	The available time is 60 minutes
 - The test is designed in a way that 60 minutes is not really enough to solve everything. Try to solve as much as you can though.
