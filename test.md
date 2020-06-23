@@ -12,8 +12,8 @@
 - How do you implement inheritance in C#?
   After defining the parent class, you put " : <parent-class>" after the name of the child class.
 
-- How do you prevent someone to inherit from a class?
-  
+- How do you prevent someone to inherit from a class?  
+
 - What is a readonly variable? Where you can assign value to readonly variables?
   A readonly variable is one whose value you can only access, not write to. You can assign value to readonly variables within the variable's class itself.
 
@@ -32,6 +32,7 @@
   different body.
 
 - How does using (...) {...} block work? What is the relation to interfaces and why?
+  
 
 - How IEnumerable<T> and IEnumerator<T> interfaces work? What properties and methods need to be implemented in classes that implements them? What are their relation to foreach loop?
   IEnumerable<T> and IEnumerator<T> are containers for collections (although not ICollections) of objects of the same type. The objects are not indexed, which is what you have to use a foreach loop instead of a for loop.
@@ -92,7 +93,7 @@ FindTheDuplicate(fruitBasket); //should return banana
 You have a long string that has some meaning on a real language. For example a whole novel in a single string.
 Write a function that counts the occurence of each word inside the string and writes them to the output in the following format: `word: number of occurences`
 You might assume that the input is not null and not empty. The order of the words on the ouput does not matter.
-The solution might be case insensitive, you don't have to differentiate bwetween capital and non-capital letters.
+The solution might be case insensitive, you don't have to differentiate between capital and non-capital letters.
 The punctuation marks and line endings are not part of the words!
 
 Example:
@@ -164,16 +165,18 @@ namespace ConsoleApp2
 The output is the following:
 0
 apple
-System.GenericType.blah
+System.Person
 
-This is because DoSomething doesn't pass anything back to Main, so the updated values aren't being used.
+This is because DoSomething doesn't pass anything back to Main, so i, s, and p aren't updated in Main.
 
 ## SQL
 
 - What is the PRIMARY KEY?
   The primary key is the unique identifier for each entry in a table.
+
 - What is the difference between CLUSTERED INDEX and NONCLUSTERED INDEX?
   No idea.
+
 - There is a table called `Employees`. Let's assume that the columns exist and they have the right data type.
 What is going to happen if we execute the script and we destroy the database connection during the execution? What are the possible problems that might occure?
 
@@ -195,5 +198,11 @@ It's possible that only some of the entries would get updated, so if you tried t
   Post - send/update information at an endpoint.
   Put - send new information to an endpoint.
   Delete - delete some information that's accessed through an endpoint (like a database entry).
-  Update - 
+  Update - update information at an endpoint.
+
 - What are the groups of HTTP response status codes? Write an example for each group!
+  100 -
+  200 -
+  300 -
+  400 - Client side
+  500 - Server side
